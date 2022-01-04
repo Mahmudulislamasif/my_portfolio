@@ -1,7 +1,21 @@
 
-section
+.top
 {
     display: flex;
+
+}
+.middle
+{
+    display: flex;
+}
+section a 
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5px
 }
 h1  
 {
@@ -24,4 +38,14 @@ span{
 {
     text-align: justify;
     padding: 10px;
+}
+.bottom
+{
+    display: flex;
+}
+.first_experience
+{
+ background-image: linear-gradient(rgba(231, 235, 231, 0.979), rgba(187, 173, 148, 0.329));
+ border-radius: 10px;
+ padding: 10px;
 }
