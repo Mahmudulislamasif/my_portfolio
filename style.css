@@ -49,6 +49,48 @@
     margin: 30px;
     font-size: 30px;
 }
+.slide_boxes{
+    display: flex;
+    background-color: papayawhip;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+.slide_box img{
+    width: 30%;
+}
+.slide_box
+{
+ padding: 20px;
+ width: 30%;
+ margin: 20px;
+ align-items: center;
+ border: 5px solid orange;
+}
+#box_1
+{
+    background-color: rgb(210, 203, 218);
+    border-radius: 5px;
+}#box_2
+{
+    background-color: rgb(236, 225, 252);
+    border-radius: 5px;
+}
+#box_3
+{
+    background-color: rgb(37, 235, 159);
+    border-radius: 5px;
+}
+.slide_box h1{
+    font-size: 40px;
+}
+.slide_box h2{
+    font-size: 20px;
+    color: red;
+}
+.slide_box p{
+   text-align: justify;
+}
 .middle
 {
     display: flex;
@@ -86,27 +128,4 @@ span{
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 30px;
-}
-.experience{
-    display: flex;
-}
-.experiences
-{
- background-image: linear-gradient(rgba(231, 235, 231, 0.979), rgba(187, 173, 148, 0.329));
- border-radius: 20px;
- padding: 20px;
- width: 30%;
- margin-left: 20px;
- box-shadow: 10px 10px 40px gray;
- border-left: 5px solid black;
-}
-.experiences h1{
-    font-size: 40px;
-}
-.experiences h2{
-    font-size: 20px;
-    color: red;
-}
-.experiences p{
-   text-align: justify;
 }
