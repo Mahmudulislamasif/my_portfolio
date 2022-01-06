@@ -6,7 +6,6 @@
 .top_bar
 {
     margin: 20px;
-    border: 5px solid darkorange;
     padding: 20px;
     border-radius: 10px;
     background-image: linear-gradient(white,silver);
@@ -90,7 +89,9 @@
 .slide_box p{
    text-align: justify;
 }
-
+#image img{
+    width: 50%;
+}
 section a 
 {
     text-decoration: none;
