@@ -20,8 +20,9 @@
 }
 .description
 {
- width:50%;
- margin-left: 20px;
+ width: 100%;
+ margin:20px;
+ padding: 30px;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .description h1
@@ -39,9 +40,8 @@
 .description h1,h2,p{
     margin-bottom: 30px;
 }
-.description img
-{
-    width: 50%;
+.description img{
+    width: 60%;
 }
 .middle_bar h1
 {
@@ -65,7 +65,6 @@
  width: 30%;
  margin: 20px;
  align-items: center;
- border: 5px solid orange;
 }
 #box_1
 {
@@ -91,10 +90,7 @@
 .slide_box p{
    text-align: justify;
 }
-#image
-{
-    width: 50%;
-}
+
 section a 
 {
     text-decoration: none;
@@ -104,19 +100,16 @@ section a
     font-weight: 700;
     border-radius: 5px
 }
-.top h1  
-{
-    font-size: 60px;
-    padding-bottom: 10px;
-}
-.top h2 
-{
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-
 span{
     color: orange; 
+}
+footer
+{
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
 }
 
 
