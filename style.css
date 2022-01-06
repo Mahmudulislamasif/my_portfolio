@@ -40,7 +40,7 @@
     margin-bottom: 30px;
 }
 .description img{
-    width: 60%;
+    width: 70%;
 }
 .middle_bar h1
 {
@@ -84,13 +84,10 @@
 }
 .slide_box h2{
     font-size: 20px;
-    color: red;
+    color: rgb(92, 99, 57);
 }
 .slide_box p{
    text-align: justify;
-}
-#image img{
-    width: 50%;
 }
 section a 
 {
@@ -100,6 +97,30 @@ section a
     color: #000;
     font-weight: 700;
     border-radius: 5px
+}
+.profile_description
+{
+  margin-bottom: 20px;
+}
+.about
+{
+    text-align: center;
+}
+#profile img
+{
+    width: 20%;  
+}
+.about p
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    background-color:black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 span{
     color: orange; 
